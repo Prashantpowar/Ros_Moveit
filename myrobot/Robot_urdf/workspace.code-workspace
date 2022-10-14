@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../catkin_ws/src/urdf_example"
+		}
+	],
+	"settings": {
+		"python.autoComplete.extraPaths": [
+			"/home/ppowar/robotic_arms_ws/devel/lib/python3/dist-packages",
+			"/home/ppowar/catkin_ws/devel/lib/python3/dist-packages",
+			"/home/ppowar/ws_moveit/devel/lib/python3/dist-packages",
+			"/opt/ros/noetic/lib/python3/dist-packages"
+		]
+	}
+}
