@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="robot_description" textfile="$(find Demon)/urdf/mikasa.urdf"/>
+    <node name="rviz_gui" pkg="rviz" type="rviz" output="screen"/>
+    
+    <node name="JSPP" pkg="joint_state_publisher" type="joint_state_publisher" output="screen"/>
+    <node name="RSPP" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
+    
+    
+</launch>
